@@ -1,3 +1,16 @@
+/* All Content */
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* Header */
 header {
     top: 0;
     left: 0;
@@ -5,9 +18,6 @@ header {
     border-bottom: 1px solid seashell;
     height: 69px;
     width: 100%;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -25,15 +35,28 @@ li {
 }
 li a {
     color: seashell;
-    text-align: center;
     opacity: .9;
 }
+
+/* Our Mission */
+.ourMission {
+    background-image: url('../resources/images/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
 }
-body {
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
+.missionDetails {
     background-color: black;
-    opacity: .9;
-    text-align: center;
+    height: 125px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.missionDetails h2 {
+    margin-bottom: 5px;
+}
+.missionDetails h4 {
+    margin-top: 5px;
 }
