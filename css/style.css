@@ -45,6 +45,7 @@ li a {
     background-image: url('../resources/images/img-mission-background.jpg');
     height: 700px;
     width: 1200px;
+    padding-top: 60px;
     display: flex;
     align-items: center;
     position: relative;
@@ -68,6 +69,7 @@ li a {
 #tea {
     height: 750px;
     width: 1000px;
+    padding-top: 60px;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
